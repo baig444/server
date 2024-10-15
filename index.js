@@ -8,7 +8,7 @@ const cookieParser = require('cookie-parser');
 // Import routes and middlewares
 const productRoutes = require('./Controllers/ProductRoutes');
 const authMiddleware = require('./Middleware/AuthMiddleware');
-const upload = require('./Middleware/upload');
+const upload = require('./Middleware/Upload');
 
 // Initialize environment variables
 dotenv.config();
